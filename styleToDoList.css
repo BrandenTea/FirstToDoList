@@ -1,0 +1,265 @@
+html, body {
+	width: 1350px;
+	height: 960px;
+	
+
+	margin: 0 auto;
+
+	font-family: Arial, Helvetica, sans-serif;
+background-image: linear-gradient(lavenderblush, red) ;
+
+
+}
+
+#footer{
+	 position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;  
+}
+
+
+
+
+
+
+
+
+
+
+.wrapper{
+	width: 1000;
+	height: 800px;
+	float: left;
+	
+	/*border: 10px solid purple;*/
+
+	margin-left: 10%;
+	margin-right: 10%;
+
+	
+
+
+}
+.parentContainer{
+	width: 500px;
+	display: inline-flex;
+	
+
+}
+
+.parentContainer2{
+
+	width: 500px;
+	display: inline-flex;
+	
+
+}
+
+.container {
+	width: 450px;
+	float: left;
+	padding: 30px;
+	
+	width: 100%;
+
+	
+
+
+}
+.listTitle{
+
+	text-align: center;
+}
+
+.listTitle{
+	background-image: linear-gradient(floralwhite,blanchedalmond);
+
+	
+}
+
+
+#titleColor{
+	background-image: linear-gradient(skyblue,purple);
+
+
+}
+
+
+#inputField{
+	width: 250px;
+	height: 46px;
+	border: 1px solid black;
+	outline: none;
+	font-size: 25px;
+	vertical-align: middle;
+	justify-content: flex-start;
+	background-color: lavenderblush;
+}
+
+#addToDo{
+	height:  50px;
+	width:  50px;
+	border: 1px solid black;
+	vertical-align:  middle;
+	font-size: 30px;
+	justify-content: flex-start;
+	color: powderblue;
+	background-color: lavenderblush;
+
+}
+
+.to-dos{
+	margin-top: 25px;
+	justify-content: flex-start;
+
+}
+
+.paragraph-styling{
+	margin: 0;
+	cursor:  pointer;
+	font-size: 80px;
+	font-weight: bold;
+	justify-content: flex-start;
+	color: lavenderblush;
+
+	
+
+}
+::placeholder{
+     font-family: cursive;
+     font-stretch: ultra-condensed;
+     font-variant: normal;
+     font-weight: 100;
+}
+
+
+
+
+
+
+
+
+
+
+#inputField2{
+	width: 250px;
+	height: 46px;
+	border: 1px solid black;
+	outline: none;
+	font-size: 25px;
+	vertical-align: middle;
+	justify-content: flex-start;
+	background-color: aqua;
+}
+
+#addToDo2{
+	height:  50px;
+	width:  50px;
+	border: 1px solid black;
+	vertical-align:  middle;
+	font-size: 30px;
+	justify-content: flex-start;
+	color: powderblue;
+	background-color: aqua;
+}
+
+.to-dos2{
+	margin-top: 25px;
+	justify-content: flex-start;
+}
+
+
+
+.topOfList{
+	
+ padding-left: 650px;
+ position: fixed;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* review on flex box
+	
+	MAIN AXIS (HORIZONTAL)
+	 flex:  grow, shrink ,flex-basis 
+	justify content:  flex-start/flex-end/center/space-around/space-between
+	display:  flex/block
+
+	CROSS AXIS(VERTICAL)
+	align-items:  flex-start/flex-end/center/baseline(bottom of content of all items will be aligned with each other)/stretch
+	align-content
+
+	flex direction switches main axis and vertical axis
+	flex direction values: row/row-reverse/column/column-reverse
+
+	flex-flow:  shorthand for declaring both flex-wrap and flex-direction properties
+
+
+	display: flex changes an element to a block-level container with flex items inside of it.
+display: inline-flex allows multiple flex containers to appear inline with each other.
+justify-content is used to space items along the main axis.
+align-items is used to space items along the cross axis.
+flex-grow is used to specify how much space (and in what proportions) flex items absorb along the main axis.
+flex-shrink is used to specify how much flex items shrink and in what proportions along the main axis.
+flex-basis is used to specify the initial size of an element styled with flex-grow and/or flex-shrink.
+flex is used to specify flex-grow, flex-shrink, and flex-basis in one declaration.
+flex-wrap specifies that elements should shift along the cross axis if the flex container is not large enough.
+align-content is used to space rows along the cross axis.
+flex-direction is used to specify the main and cross axes.
+flex-flow is used to specify flex-wrap and flex-direction in one declaration.
+Flex containers can be nested inside of each other by declaring display: flex or display: inline-flex for children of flex containers.*/
